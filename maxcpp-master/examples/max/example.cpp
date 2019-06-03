@@ -4,6 +4,7 @@ class Example : public MaxCpp6<Example> {
 public:
 	Example(t_symbol * sym, long ac, t_atom * av) { 
 		setupIO(2, 2); // inlets / outlets
+        
 	}
 	~Example() {}	
 	

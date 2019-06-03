@@ -7,15 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D6A265722A3372C003E8233 /* softcut in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A265622A3372C003E8233 /* softcut */; };
-		1D6A265922A33BA2003E8233 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A265822A33BA2003E8233 /* Utilities.h */; };
+		1D6A266E22A44213003E8233 /* TestBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A265B22A44213003E8233 /* TestBuffers.h */; };
+		1D6A266F22A44213003E8233 /* Svf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A265C22A44213003E8233 /* Svf.cpp */; };
+		1D6A267022A44213003E8233 /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A265D22A44213003E8233 /* Types.h */; };
+		1D6A267122A44213003E8233 /* SubHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A265E22A44213003E8233 /* SubHead.h */; };
+		1D6A267222A44213003E8233 /* SoftCutVoice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A265F22A44213003E8233 /* SoftCutVoice.cpp */; };
+		1D6A267322A44213003E8233 /* FadeCurves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A266022A44213003E8233 /* FadeCurves.cpp */; };
+		1D6A267422A44213003E8233 /* FadeCurves.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266122A44213003E8233 /* FadeCurves.h */; };
+		1D6A267522A44213003E8233 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266222A44213003E8233 /* Utilities.h */; };
+		1D6A267622A44213003E8233 /* SoftCutHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A266322A44213003E8233 /* SoftCutHead.cpp */; };
+		1D6A267722A44213003E8233 /* SoftClip.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266422A44213003E8233 /* SoftClip.h */; };
+		1D6A267822A44213003E8233 /* SoftCutHead.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266522A44213003E8233 /* SoftCutHead.h */; };
+		1D6A267922A44213003E8233 /* Interpolate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266622A44213003E8233 /* Interpolate.h */; };
+		1D6A267A22A44213003E8233 /* SoftCutVoice.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266722A44213003E8233 /* SoftCutVoice.h */; };
+		1D6A267B22A44213003E8233 /* Svf.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266822A44213003E8233 /* Svf.h */; };
+		1D6A267C22A44213003E8233 /* Resampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266922A44213003E8233 /* Resampler.h */; };
+		1D6A267D22A44213003E8233 /* TestBuffers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A266A22A44213003E8233 /* TestBuffers.cpp */; };
+		1D6A267E22A44213003E8233 /* LowpassBrickwall.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266B22A44213003E8233 /* LowpassBrickwall.h */; };
+		1D6A267F22A44213003E8233 /* SoftCut.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A266C22A44213003E8233 /* SoftCut.h */; };
+		1D6A268022A44213003E8233 /* SubHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A266D22A44213003E8233 /* SubHead.cpp */; };
+		1D6A268222A44238003E8233 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6A268122A44238003E8233 /* Utilities.h */; };
 		22CF119B0EE9A8250054F513 /* softcut~.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CF119A0EE9A8250054F513 /* softcut~.cpp */; };
 		22CF119E0EE9A82E0054F513 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CF119D0EE9A82E0054F513 /* MaxAudioAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D6A265622A3372C003E8233 /* softcut */ = {isa = PBXFileReference; lastKnownFileType = folder; path = softcut; sourceTree = "<group>"; };
-		1D6A265822A33BA2003E8233 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		1D6A265B22A44213003E8233 /* TestBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBuffers.h; sourceTree = "<group>"; };
+		1D6A265C22A44213003E8233 /* Svf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Svf.cpp; sourceTree = "<group>"; };
+		1D6A265D22A44213003E8233 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		1D6A265E22A44213003E8233 /* SubHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubHead.h; sourceTree = "<group>"; };
+		1D6A265F22A44213003E8233 /* SoftCutVoice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoftCutVoice.cpp; sourceTree = "<group>"; };
+		1D6A266022A44213003E8233 /* FadeCurves.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FadeCurves.cpp; sourceTree = "<group>"; };
+		1D6A266122A44213003E8233 /* FadeCurves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeCurves.h; sourceTree = "<group>"; };
+		1D6A266222A44213003E8233 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		1D6A266322A44213003E8233 /* SoftCutHead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoftCutHead.cpp; sourceTree = "<group>"; };
+		1D6A266422A44213003E8233 /* SoftClip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftClip.h; sourceTree = "<group>"; };
+		1D6A266522A44213003E8233 /* SoftCutHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftCutHead.h; sourceTree = "<group>"; };
+		1D6A266622A44213003E8233 /* Interpolate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolate.h; sourceTree = "<group>"; };
+		1D6A266722A44213003E8233 /* SoftCutVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftCutVoice.h; sourceTree = "<group>"; };
+		1D6A266822A44213003E8233 /* Svf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Svf.h; sourceTree = "<group>"; };
+		1D6A266922A44213003E8233 /* Resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resampler.h; sourceTree = "<group>"; };
+		1D6A266A22A44213003E8233 /* TestBuffers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestBuffers.cpp; sourceTree = "<group>"; };
+		1D6A266B22A44213003E8233 /* LowpassBrickwall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowpassBrickwall.h; sourceTree = "<group>"; };
+		1D6A266C22A44213003E8233 /* SoftCut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftCut.h; sourceTree = "<group>"; };
+		1D6A266D22A44213003E8233 /* SubHead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubHead.cpp; sourceTree = "<group>"; };
+		1D6A268122A44238003E8233 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = SOURCE_ROOT; };
 		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../../maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
 		22CF119A0EE9A8250054F513 /* softcut~.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "softcut~.cpp"; sourceTree = "<group>"; };
 		22CF119D0EE9A82E0054F513 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = SOURCE_ROOT; };
@@ -39,14 +75,14 @@
 		089C166AFE841209C02AAC07 /* iterator */ = {
 			isa = PBXGroup;
 			children = (
-				1D6A265822A33BA2003E8233 /* Utilities.h */,
 				36ECE19916F6A2860008CAFC /* README.md */,
 				36C5491F16F557E00054C037 /* maxcpp */,
 				22CF10220EE984600054F513 /* maxmspsdk.xcconfig */,
 				22CF119A0EE9A8250054F513 /* softcut~.cpp */,
 				22CF119D0EE9A82E0054F513 /* MaxAudioAPI.framework */,
 				19C28FB4FE9D528D11CA2CBB /* Products */,
-				1D6A265622A3372C003E8233 /* softcut */,
+				1D6A268122A44238003E8233 /* Utilities.h */,
+				1D6A265A22A44213003E8233 /* softcut */,
 			);
 			name = iterator;
 			sourceTree = "<group>";
@@ -57,6 +93,32 @@
 				2FBBEAE508F335360078DB84 /* softcut~.mxo */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6A265A22A44213003E8233 /* softcut */ = {
+			isa = PBXGroup;
+			children = (
+				1D6A265B22A44213003E8233 /* TestBuffers.h */,
+				1D6A265C22A44213003E8233 /* Svf.cpp */,
+				1D6A265D22A44213003E8233 /* Types.h */,
+				1D6A265E22A44213003E8233 /* SubHead.h */,
+				1D6A265F22A44213003E8233 /* SoftCutVoice.cpp */,
+				1D6A266022A44213003E8233 /* FadeCurves.cpp */,
+				1D6A266122A44213003E8233 /* FadeCurves.h */,
+				1D6A266222A44213003E8233 /* Utilities.h */,
+				1D6A266322A44213003E8233 /* SoftCutHead.cpp */,
+				1D6A266422A44213003E8233 /* SoftClip.h */,
+				1D6A266522A44213003E8233 /* SoftCutHead.h */,
+				1D6A266622A44213003E8233 /* Interpolate.h */,
+				1D6A266722A44213003E8233 /* SoftCutVoice.h */,
+				1D6A266822A44213003E8233 /* Svf.h */,
+				1D6A266922A44213003E8233 /* Resampler.h */,
+				1D6A266A22A44213003E8233 /* TestBuffers.cpp */,
+				1D6A266B22A44213003E8233 /* LowpassBrickwall.h */,
+				1D6A266C22A44213003E8233 /* SoftCut.h */,
+				1D6A266D22A44213003E8233 /* SubHead.cpp */,
+			);
+			path = softcut;
 			sourceTree = "<group>";
 		};
 		36C5491F16F557E00054C037 /* maxcpp */ = {
@@ -75,7 +137,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6A265922A33BA2003E8233 /* Utilities.h in Headers */,
+				1D6A267C22A44213003E8233 /* Resampler.h in Headers */,
+				1D6A268222A44238003E8233 /* Utilities.h in Headers */,
+				1D6A267B22A44213003E8233 /* Svf.h in Headers */,
+				1D6A267022A44213003E8233 /* Types.h in Headers */,
+				1D6A267F22A44213003E8233 /* SoftCut.h in Headers */,
+				1D6A266E22A44213003E8233 /* TestBuffers.h in Headers */,
+				1D6A267722A44213003E8233 /* SoftClip.h in Headers */,
+				1D6A267E22A44213003E8233 /* LowpassBrickwall.h in Headers */,
+				1D6A267A22A44213003E8233 /* SoftCutVoice.h in Headers */,
+				1D6A267522A44213003E8233 /* Utilities.h in Headers */,
+				1D6A267822A44213003E8233 /* SoftCutHead.h in Headers */,
+				1D6A267122A44213003E8233 /* SubHead.h in Headers */,
+				1D6A267922A44213003E8233 /* Interpolate.h in Headers */,
+				1D6A267422A44213003E8233 /* FadeCurves.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +207,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D6A265722A3372C003E8233 /* softcut in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6A267222A44213003E8233 /* SoftCutVoice.cpp in Sources */,
 				22CF119B0EE9A8250054F513 /* softcut~.cpp in Sources */,
+				1D6A267622A44213003E8233 /* SoftCutHead.cpp in Sources */,
+				1D6A267D22A44213003E8233 /* TestBuffers.cpp in Sources */,
+				1D6A266F22A44213003E8233 /* Svf.cpp in Sources */,
+				1D6A268022A44213003E8233 /* SubHead.cpp in Sources */,
+				1D6A267322A44213003E8233 /* FadeCurves.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +288,18 @@
 					"\"$(C74SUPPORT)/jit-includes\"",
 					../../maxcpp,
 				);
+				INCLUDED_SOURCE_FILE_NAMES = (
+					softcut/FadeCurves.cpp,
+					softcut/SoftCut.h,
+					softcut/SoftCutHead.cpp,
+					softcut/SoftCutVoice.cpp,
+					softcut/SubHead.cpp,
+					softcut/Svf.cpp,
+					Utilities.h,
+				);
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 				PRODUCT_NAME = "softcut~";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				VALID_ARCHS = x86_64;
 			};
 			name = Development;
@@ -227,8 +317,18 @@
 					"\"$(C74SUPPORT)/jit-includes\"",
 					../../maxcpp,
 				);
+				INCLUDED_SOURCE_FILE_NAMES = (
+					softcut/FadeCurves.cpp,
+					softcut/SoftCut.h,
+					softcut/SoftCutHead.cpp,
+					softcut/SoftCutVoice.cpp,
+					softcut/SubHead.cpp,
+					softcut/Svf.cpp,
+					Utilities.h,
+				);
 				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
 				PRODUCT_NAME = "softcut~";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				VALID_ARCHS = x86_64;
 			};
 			name = Deployment;

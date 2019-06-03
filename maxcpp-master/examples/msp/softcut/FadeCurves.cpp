@@ -24,17 +24,6 @@ float FadeCurves::preFadeBuf[fadeBufSize];
 FadeCurves::Shape FadeCurves::recShape = Linear;
 FadeCurves::Shape FadeCurves::preShape = Linear;
 
-
-//added naively
-setPreShape(Shape::Linear);
-setRecShape(Shape::Raised);
-setMinPreWindowFrames(0);
-setMinRecDelayFrames(0);
-setPreWindowRatio(1.f/8);
-setRecDelayRatio(1.f/(8*16));
-//added naively
-
-
 void FadeCurves::calcRecFade() {
     float buf[fadeBufSize];
     unsigned int n = fadeBufSize - 1;

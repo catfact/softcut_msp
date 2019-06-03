@@ -19,12 +19,12 @@ namespace softcut {
     private:
         SoftCutVoice scv[numVoices];
         void init() {
-//            FadeCurves::setPreShape(FadeCurves::Shape::Linear);
-//            FadeCurves::setRecShape(FadeCurves::Shape::Raised);
-//            FadeCurves::setMinPreWindowFrames(0);
-//            FadeCurves::setMinRecDelayFrames(0);
-//            FadeCurves::setPreWindowRatio(1.f/8);
-//            FadeCurves::setRecDelayRatio(1.f/(8*16));
+            FadeCurves::setPreShape(FadeCurves::Shape::Linear);
+            FadeCurves::setRecShape(FadeCurves::Shape::Raised);
+            FadeCurves::setMinPreWindowFrames(0);
+            FadeCurves::setMinRecDelayFrames(0);
+            FadeCurves::setPreWindowRatio(1.f/8);
+            FadeCurves::setRecDelayRatio(1.f/(8*16));
         }
         
     public:
@@ -41,6 +41,10 @@ namespace softcut {
             for (auto &v : scv) {
                 v.setSampleRate(hz);
             }
+        }
+        
+        void setVoiceSampleRate(int voice, unsigned int hz) { //added by andrew
+            scv[voice].setSampleRate(hz);
         }
         
         void setRate(int voice, float rate) {
@@ -116,7 +120,7 @@ namespace softcut {
             scv[voice].setFilterFcMod( x);
         }
         
-#if 0 // not allowing realtime manipulation of fade logic params
+#if 1 // not allowing realtime manipulation of fade logic params
         void setPreFadeWindow(float x) {
             auto t = std::thread([x] {
                 FadeCurves::setPreWindowRatio(x);
