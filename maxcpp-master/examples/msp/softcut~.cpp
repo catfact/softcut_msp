@@ -22,7 +22,7 @@ public:
         
         post("softcut created");
         
-        clearBuffer();
+//        clearBuffer();
         
         for(int i=0; i<NumVoices; ++i) {
             cut.setVoiceBuffer(i, buf[i], BufFrames);
@@ -37,13 +37,13 @@ public:
         post("object freed");
     }
     
-    void clearBuffer() {
-        for(int v=0; v < NumVoices; v++) {
-            for(int f=0; f < BufFrames; f++) {
-                buf[v][f] = 0.f;
-            }
-        }
-    }
+//    void clearBuffer() {
+//        for(int v=0; v < NumVoices; v++) {
+//            for(int f=0; f < BufFrames; f++) {
+//                buf[v][f] = 0.f;
+//            }
+//        }
+//    }
     
     void filter_fc(long inlet, t_symbol * s, long ac, t_atom * av) { //(voice,val)
         cut.setFilterFc(atom_getlong(av), atom_getfloat(av + 1));
